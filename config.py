@@ -27,7 +27,7 @@ LOGIN_URL = 'https://passport.weibo.cn/signin/login'
 # ID_FILE_PATH = './settings/id_file'
 #本地mysql设定
 SQLCONFIG = {'host':'127.0.0.1','port':3306, 'user':'root', 'password':'123456', 'db':'assistant', 'charset':'utf8'}
-# SQLCONFIG = {'host':'119.29.239.17','port':3306, 'user':'assistant', 'password':'assistant', 'db':'assistant', 'charset':'utf8'}
+
 MAXGETPROXY=80
 TASK_SAVE_DIR = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), "task")))
 # change this to your PhantomJS unzip path, point to bin/phantomjs executable file, full path
